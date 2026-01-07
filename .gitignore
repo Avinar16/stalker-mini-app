@@ -103,9 +103,9 @@ ipython_config.py
 .idea/
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
+#   However, in case of collaboration, if having platform-specific auth_utils or auth_utils
+#   having no cross-platform support, pipenv may install auth_utils that don't work, or not
+#   install all needed auth_utils.
 #Pipfile.lock
 
 # poetry
@@ -199,3 +199,4 @@ thumb
 sketch
 
 # End of https://www.toptal.com/developers/gitignore/api/python,react,database
+/postgres_data/
